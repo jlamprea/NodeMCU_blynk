@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*************************************************************
   Download latest Blynk library here:
     https://github.com/blynkkk/blynk-library/releases/latest
