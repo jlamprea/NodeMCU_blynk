@@ -84,8 +84,8 @@ void loop()
 {
   Blynk.run(); 
    if (!digitalRead(0)){  // mantiene el led prendido // codigo adicional para prender y apagar el led de blynk
-    //led3.on();
-    notifyOnButtonPress();
+    //led3.on(); // prende el led  de blink directo
+    notifyOnButtonPress();  // opcional
   }
   led3.off(); // apaga el led en app blynk
 }
